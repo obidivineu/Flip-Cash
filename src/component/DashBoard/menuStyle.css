@@ -1,0 +1,102 @@
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: #006D77;
+}
+
+.bankLogo{
+    width: 100%;
+    height: 150px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    width: 70%;
+    height: 60%;
+    margin-top: 20px;
+    /* background-color: black; */
+}
+.logoImg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.theMenus{
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+.active{
+    width: 95%;
+    height: 30px;
+    /* background-color: brown; */
+    border-right: 6px solid #FFC300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    color: #FFC300;
+    cursor: pointer;
+    text-decoration: none;
+}
+.active > h5{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Lora;
+}
+.notactive{
+    width: 95%;
+    height: 30px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    color: #EEEDED;
+    cursor: pointer;
+    text-decoration: none;
+}
+.notactive:hover{
+    color: #FFC300;
+}
+.menuTitleImg{
+    width: 8%;
+    height: 100%;
+    /* background-color: black; */
+}
+.menuTitleImg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.notactive > h5{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Lora;
+}
+
+.theEnd{
+    width: 95%;
+    height: 5%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+.profileLogout{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.profileLogout:hover{
+    color: #FFC300;
+}

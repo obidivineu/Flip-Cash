@@ -1,0 +1,14 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100wv;
+}
+button{
+    width: 200px;
+    height: 50px;
+}
+input{
+    width: 100px;
+    height: 30px;
+}

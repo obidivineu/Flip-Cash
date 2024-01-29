@@ -1,0 +1,207 @@
+.dashBoard{
+    width: 99%;
+    height: 82%;
+    background-color: #EDF6F9;
+}
+
+.dashboardTop{
+    width: 100%;
+    height: 20%;
+    background-color: #006d77;
+    display: flex;
+    justify-content: space-between;
+}
+.currentBalance{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.theCurrentBal{
+    width: 200px;
+    height: 40%;
+    /* background-color: #A9E4DE; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: lightgrey;
+    font-size: 25px;
+}
+.currentBalance > h3{
+    margin-top: 10px;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.accountNumber{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    margin-right: 70px;
+}
+.theAccountNumber{
+    width: 200px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 10px;
+    color: lightgrey;
+    font-size: 25px;
+}
+.accountNumber > h3{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.dashboardPayment{
+    width: 100%;
+    height: 25%;
+    background-color: #E8E8E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dashboardBtn{
+    width: 15%;
+    height: 60%;
+    background-color: #006D77;
+    text-decoration: none;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.dashboardBtn:hover{
+    background-color: #04545B;
+}
+
+.transactionHistory{
+    width: 100%;
+    height: 47.9%;
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+.transactionHistory > h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #414141;
+    margin-left: 70px;
+}
+
+.transactionHistoryDivider{
+    width: 100%;
+    height: 1px;
+    background-color: #D3D3D3;
+    margin-top: -20px;
+}
+
+.taransactionHistoryArea{
+    width: 100%;
+    height: 85%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.statusArea{
+    width: 15%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nameArea{
+    width: 15%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+.amountArea{
+    width: 15%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+.dateArea{
+    width: 15%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+.transactOptions{
+    font-size: 25px;
+    color: #808080;
+}
+.theTransactionsStatus{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.theTransactionsStatus > p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.theTransactionsStatus > .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green;
+}
+
+.theTransactionsName{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.theTransactionsName > p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.theTransactionsAmount{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.theTransactionsAmount > p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.theTransactionsDate{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.theTransactionsDate > p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
